@@ -1,0 +1,149 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Section Dashboard */
+  #dashboard {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #dashboard h2 {
+    margin-top: 0;
+  }
+  
+  #dashboard div {
+    margin-bottom: 1rem;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+    appearance: none;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #4CAF50;
+    border-radius: 10px;
+  }
+  
+  /* Section Formulaire */
+  #meal-form {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #meal-form h2 {
+    margin-top: 0;
+  }
+  
+  #meal-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #meal-form input,
+  #meal-form button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #meal-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #meal-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Section Recommandations */
+  #recommendations {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #recommendations h2 {
+    margin-top: 0;
+  }
+  
+  #recommendations ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #recommendations li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  #recommendations li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Section Statistiques */
+  #statistics {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #statistics h2 {
+    margin-top: 0;
+  }
+  
+  #statistics ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #statistics li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  #statistics li:last-child {
+    border-bottom: none;
+  }
